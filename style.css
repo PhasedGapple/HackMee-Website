@@ -1,13 +1,5 @@
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-  background-image: "HackMee.png";
-}
-
-h1 {
-  color: #333;
-}
-
-p {
-  color: #666;
+  background-image: url("HackMee.png");
 }
