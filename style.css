@@ -1,5 +1,53 @@
 body {
-  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
-  background-image: url("/HackMee.png");
+  background-image: url(HackMee.png);
+  /* background-size: 100px 100px; */
+}
+
+.software-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.software-box {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.software-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.software-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.software-description {
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
 }
